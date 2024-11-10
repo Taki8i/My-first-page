@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <img class="avatar" src="assets/avatar.webp" alt="">
+    <h1 class="header__title">Mashuk Petr | CV</h1>
+    <h2 class="header__subtitle">Future frontend developer</h2>
+  </header>
+  <main class="main">
+    <section class="skills">
+      <h3 class="skills__title">Skills</h3>
+      <details class="skills__accord">
+        <summary class="accord__title">Skills that I want to learn</summary>
+        <ol class="accord__list">
+          <li class="accord__list-item">1. HTML</li>
+          <li class="accord__list-item">2. CSS</li>
+          <li class="accord__list-item">3. JavaScript</li>
+          <li class="accord__list-item">4. React</li>
+          <li class="accord__list-item">5. TypeScript</li>
+        </ol>
+      </details>
+    </section>
+    <article class="about">
+      <h4 class="about__title">Short article about me</h4>
+      <p class="about__text">Мне 24 года, меня зовут Петр. Веселый парень, который всегда был душой компании. Легко
+        нахожу общий язык с людьми - стараюсь быть полезным для них, но без подхалимства. В свободное время увлекаюсь
+        фотоискусством, чтением, в основном психология и социология. Из преимуществ в себе могу выделить :
+        ответственность,
+        самостоятельность, собранность. Люблю когда все на своих местах и стараюсь поддерживать порядок во всем.
+        Нравится активный образ жизни, спорт, и свежий воздух. </p>
+    </article>
+    <section class="gallery">
+      <img class="gallery__img" src="assets/gallery1.webp" alt="my photo 1">
+      <img class="gallery__img" src="assets/gallery2.webp" alt="my photo 2">
+      <img class="gallery__img" src="assets/gallery3.webp" alt="my photo 3">
+    </section>
+    <hr class="separator">
+    <section class="video">
+      <iframe src="https://www.youtube.com/embed/_yJn-jwLyjw?si=9bFbKiAY-K6H7q7L" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <hr class="separator">
+    <section class="hobby">
+      <details class="hobby__accord">
+        <summary class="hobby__accord-title">My Hobbies</summary>
+        <ul class="hobby__list">
+          <li class="hobby__list-item">Чтение</li>
+          <li class="hobby__list-item">Програмирование</li>
+          <li class="hobby__list-item">Музыка</li>
+          <li class="hobby__list-item">Кино</li>
+          <li class="hobby__list-item">Изобразительное искусство</li>
+          </гl>
+      </details>
+    </section>
+    <hr class="separator">
+    <blockquote class="quote">Действие не знает страха.</blockquote>
+    <section class="interaction">
+      <form class="form" action="https://yandex.by/" method="get" target="_blank">
+        <h4 class="form__title">Для связи со мной</h4>
+        <fieldset class="form__group">
+          <legend class="form__group-title">Введите свои данные:</legend>
+          <label class="form__label" for="name">Ваше имя:</label>
+          <input class="form__input" type="text" id="name" placeholder="Введите имя" required>
+          <label class="form__label" for="secondname">Ваша фамилия:</label>
+          <input class="form__input" type="text" id="secondname" placeholder="Введите фамилию" required>
+          <label class="form__label" for="email">Ваш email:</label>
+          <input class="form__input" type="email" id="email" placeholder="Введите email" required>
+        </fieldset>
+        <textarea class="form__message" name="textarea" id="textarea" placeholder="Введите ваше сообщение"
+          required></textarea>
+        <button class="form__button" type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <address class="address">
+      <a class="footer__link" href="mailto:">23h59@mail.ru</a>
+      <a class="footer__link" href="tel:+375292273246">+375292273246</a>
+    </address>
+  </footer>
+</body>
+
+</html>
